@@ -1,5 +1,28 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.annulusgames",
+        "com.cysharp",
+        "jp.hadashikick",
+        "org.nuget"
+      ]
+    }
+  ],
   "dependencies": {
+    "com.annulusgames.lit-motion": "1.7.0",
+    "com.cysharp.memorypack": "1.10.0",
+    "com.cysharp.messagepipe": "https://github.com/Cysharp/MessagePipe.git?path=src/MessagePipe.Unity/Assets/Plugins/MessagePipe",
+    "com.cysharp.messagepipe.vcontainer": "https://github.com/Cysharp/MessagePipe.git?path=src/MessagePipe.Unity/Assets/Plugins/MessagePipe.VContainer",
+    "com.cysharp.r3": "1.2.9",
+    "com.cysharp.unitask": "2.5.5",
+    "com.cysharp.zlogger": "2.5.5",
+    "com.cysharp.zstring": "2.6.0",
+    "jp.hadashikick.vcontainer": "1.16.8",
+    "org.nuget.r3": "1.2.9",
+    "org.nuget.zlogger": "2.5.5",
     "com.unity.ai.assistant": "2.21.0-pre.2",
     "com.unity.ai.inference": "2.6.1",
     "com.unity.ai.navigation": "2.0.10",
