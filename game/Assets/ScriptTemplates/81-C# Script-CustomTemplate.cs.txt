@@ -1,0 +1,12 @@
+﻿/// Copyright (c) 2026
+#nullable enable
+
+using UnityEngine;
+
+namespace Game
+{
+    public class #SCRIPTNAME#
+    {
+
+    }
+}
