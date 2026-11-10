@@ -1,0 +1,25 @@
+name: Code Style & Format Check
+
+on:
+  push:
+    branches: [ develop ]
+  pull_request:
+    branches: [ develop ]
+
+jobs:
+  lint:
+    name: Check .editorconfig compliance
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Verify code formatting
+        run: |
+          dotnet format --folder --verify-no-changes --verbosity normal
